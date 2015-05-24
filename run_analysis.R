@@ -22,7 +22,9 @@ rm(list=ls())
 # 1. Merge the training and the test sets to create one data set.
 
 #set working directory to the location where the UCI HAR Dataset was unzipped
-setwd('D:/R/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/');
+#setwd('D:/R/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/');
+
+#As per instruction, working directory will be expected to contain the files
 
 # Read in the data from files
 features     = read.table('./features.txt',header=FALSE); #imports features.txt
